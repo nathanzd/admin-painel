@@ -124,5 +124,55 @@ b{
 
 
 aside{
+    height:100vh;
+    
 
+}
+
+aside .top{
+    background:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1.4rem;
+}
+aside .logo{
+    display: flex;
+    gap: 0.8rem;
+}
+
+aside .logo img{
+    vertical-align: middle;
+    width: 2rem;
+    height: 2rem;
+}
+
+aside .close{
+    display: none;
+}
+
+/* =================== SIDEBAR ============= */
+
+aside .sidebar{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    height: 86vh;
+    position: relative;
+    top: 3rem;
+}
+
+aside h3{
+    font-weight: 500;
+}
+
+aside .sidebar a{
+    display: flex;
+    color: var(--color-info-dark);
+    margin-left: 2rem;
+    gap: 1rem;
+    align-items: center;
+    position: relative;
+    height: 3.7rem;
+    
 }
